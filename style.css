@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+#headertitle {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+#headerdownload {
+    font-size: 16px;
+    a:link {
+        color: aquamarine;
+    }
+    a:visited {
+        color: aquamarine;
+    }
+    a:hover{
+        color: aquamarine;
+    }
+    a:active{
+        color: aquamarine;
+    }
+
+}
+
+#phonevideo {
+    align-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
